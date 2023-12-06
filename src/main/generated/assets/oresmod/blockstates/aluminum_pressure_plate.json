@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "oresmod:block/aluminum_pressure_plate"
+    },
+    "powered=true": {
+      "model": "oresmod:block/aluminum_pressure_plate_down"
+    }
+  }
+}
