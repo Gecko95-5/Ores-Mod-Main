@@ -1,7 +1,7 @@
-// 1.20.2	2023-12-05T21:02:31.6615141	Ores Mod/Block Loot Tables
+// 1.20.2	2023-12-06T13:02:35.4041951	Ores Mod/Block Loot Tables
 b4245b9e9f52bd5506bb480a49504f1003c0daff data\oresmod\loot_tables\blocks\black_sandstone_slab.json
-e995940a490b6574f620f96cade24086f5bcdf80 data\oresmod\loot_tables\blocks\stonebark_sapling.json
 1cf901ac44ca389dbc43ff494412577b491fdd51 data\oresmod\loot_tables\blocks\nether_cobalt_ore.json
+e995940a490b6574f620f96cade24086f5bcdf80 data\oresmod\loot_tables\blocks\stonebark_sapling.json
 5a6df559c72e8e61e50ee1b47f09871392bbace0 data\oresmod\loot_tables\blocks\stonebark_button.json
 30e56cf10541617428d0f4bf42f444773dd5569f data\oresmod\loot_tables\blocks\suspicious_white_sand.json
 e3e156a7d41d44df6201e6640aa2adb312e7a432 data\oresmod\loot_tables\blocks\raw_salt_block.json
@@ -96,8 +96,8 @@ d1285de92c496978bb676df8b4b0d590ffd5b7f4 data\oresmod\loot_tables\blocks\salt_or
 9893c9e9731c272287f37d80ccff5401ab2ff88f data\oresmod\loot_tables\blocks\steel_block.json
 f4f7ba12cd8ccd3057d9d46ddc0489c127f44427 data\oresmod\loot_tables\blocks\aluminum_ore.json
 9d63af4b8e2dd6e860bbf555f00b896d8a5561b9 data\oresmod\loot_tables\blocks\stripped_stonebark_log.json
-71ce2b416ec79ae3e2b3130b2d46c97523b467c3 data\oresmod\loot_tables\blocks\frosite_brick_stairs.json
 762ec1b68d91ac9538078811a92d80986ad9daf5 data\oresmod\loot_tables\blocks\stonebark_stairs.json
+71ce2b416ec79ae3e2b3130b2d46c97523b467c3 data\oresmod\loot_tables\blocks\frosite_brick_stairs.json
 0d9b39c8034a66e2f5cdf78c3efab07a6665bee8 data\oresmod\loot_tables\blocks\deepbark_trapdoor.json
 4fa6180d155198e0583d63752f4c8e8dd54960ec data\oresmod\loot_tables\blocks\nickel_ore.json
 7632391f16b47fc8a48ca53b5755a4dfe8e970ca data\oresmod\loot_tables\blocks\deepbark_fence.json

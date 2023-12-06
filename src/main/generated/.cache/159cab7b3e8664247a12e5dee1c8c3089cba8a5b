@@ -1,4 +1,4 @@
-// 1.20.2	2023-12-05T21:02:31.6754781	Ores Mod/Model Definitions
+// 1.20.2	2023-12-06T13:02:35.4176693	Ores Mod/Model Definitions
 134e5cd39106d4922ee8962520ac25fc6d1f9f41 assets\oresmod\models\item\deepslate_log.json
 8cce76ade70ebfddf0712f156e2f0d590dd3c42f assets\oresmod\models\item\steel_sword.json
 5c1e948e53c84375463b30c7a393e545fa3ec364 assets\oresmod\blockstates\deepslate_leaves.json
@@ -120,8 +120,8 @@ f0b5d0e148dacac4288cfaaf88b784f03fec5875 assets\oresmod\models\item\aluminum_swo
 c61327810152f2af8f260631fa4c01fe5c95709b assets\oresmod\models\item\aluminum_leggings_lapis_trim.json
 cf740aa0b9da743cb4d0b60653790efa382fc05e assets\oresmod\models\block\cut_steel_stairs_outer.json
 157c493ad7b636490b83e107f4e0f1d9ddade435 assets\oresmod\models\item\copper_helmet_copper_trim.json
-ebe77b791a172566a7f2c7c1c9709683e61c8065 assets\oresmod\models\item\stonebark_fence_gate.json
 bd524bd30b5e926bf6ede8e4aba14dad62c15135 assets\oresmod\blockstates\deepslate_log.json
+ebe77b791a172566a7f2c7c1c9709683e61c8065 assets\oresmod\models\item\stonebark_fence_gate.json
 94d6e743ed0ec722303dd4178ad68f60d2d6de55 assets\oresmod\models\item\aluminum_pressure_plate.json
 fa41b7981979144458db8df468db968ea9410a9c assets\oresmod\models\item\nickel_helmet_copper_trim.json
 3da7c2ea7cd88b632620a79c26a725b3050088a6 assets\oresmod\models\item\nickel_chestplate_redstone_trim.json
@@ -315,8 +315,8 @@ a3142f80b2d2e7af21df4d0a1bd22cf13125b5f6 assets\oresmod\models\block\stonebark_f
 1a9288a69d0bc56d05f77330a6561d699d8dda98 assets\oresmod\models\item\frosite_tile_stairs.json
 df14c6221875f16766af842e62b79e26f403752d assets\oresmod\models\block\frosite_brick_stairs_inner.json
 a4211be6dca125bf04bf6e54581327c10a7d231a assets\oresmod\models\block\steel_door_top_right.json
-fc610d0c1ad00f057f5bed4db24ac5b7459b65e4 assets\oresmod\models\block\cut_steel_slab.json
 f260c213cadd9a03138d5d5e48e4e3191286ad64 assets\oresmod\blockstates\cut_steel_stairs.json
+fc610d0c1ad00f057f5bed4db24ac5b7459b65e4 assets\oresmod\models\block\cut_steel_slab.json
 660ca029441ccd305fefef4889bff5b0d38893e3 assets\oresmod\models\item\deepslate_planks.json
 d8bf7a98d28e5b7f2cd3aaecf4d67040f95e132f assets\oresmod\blockstates\stonebark_planks.json
 6280873051e6078d84f0ce3e068d6cb7265ab973 assets\oresmod\models\item\copper_boots_quartz_trim.json
@@ -754,8 +754,8 @@ ed55d37dfccbee4d3f241de8703da1096a669596 assets\oresmod\blockstates\dripstone_co
 30b1d50ce8e17821d7ed4f94d0cd581527beb1ba assets\oresmod\models\item\copper_boots_diamond_trim.json
 1cd81afc15027593fedc3522deccf7ec465bd8a1 assets\oresmod\models\item\titanium_alloy_leggings_quartz_trim.json
 8682560671de3931cc1d6048d447525b3d6e7914 assets\oresmod\models\block\potted_stonebark_sapling.json
-3ec43418147c4be42eb67a24eb5de5d2dbc64fdc assets\oresmod\models\item\copper_leggings_copper_trim.json
 6ccac9166ca16074ad58edce8a5bc8289f19188c assets\oresmod\models\item\cobalt_helmet_quartz_trim.json
+3ec43418147c4be42eb67a24eb5de5d2dbc64fdc assets\oresmod\models\item\copper_leggings_copper_trim.json
 6d9066fb71f78a52bc30b726ee747ce9d14d311c assets\oresmod\models\item\titanium_chestplate_copper_trim.json
 97d84385176e676b47d2c0aba9ae92d22cb47f53 assets\oresmod\models\item\copper_shovel.json
 999900a1dff982cc5a436e41765baa913c6a5b84 assets\oresmod\models\item\aluminum_axe.json

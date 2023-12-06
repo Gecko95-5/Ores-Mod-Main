@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "B": {
-      "item": "oresmod:titanium_ingot"
+      "item": "oresmod:titanium_alloy_ingot"
     },
     "I": {
       "item": "oresmod:titanium_alloy_scrap"
