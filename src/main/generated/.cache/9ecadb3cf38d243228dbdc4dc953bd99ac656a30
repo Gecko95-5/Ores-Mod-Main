@@ -1,4 +1,4 @@
-// 1.20.2	2023-12-06T13:02:35.4041951	Ores Mod/Block Loot Tables
+// 1.20.2	2023-12-06T15:34:26.4552245	Ores Mod/Block Loot Tables
 b4245b9e9f52bd5506bb480a49504f1003c0daff data\oresmod\loot_tables\blocks\black_sandstone_slab.json
 1cf901ac44ca389dbc43ff494412577b491fdd51 data\oresmod\loot_tables\blocks\nether_cobalt_ore.json
 e995940a490b6574f620f96cade24086f5bcdf80 data\oresmod\loot_tables\blocks\stonebark_sapling.json
@@ -46,6 +46,7 @@ ae371abc163678304d5b323dcb1f1b7feb2b309a data\oresmod\loot_tables\blocks\stoneba
 8558c9f3b42dac79c4893efee4750c8ee3bd8448 data\oresmod\loot_tables\blocks\frosite_ore.json
 2b16fbbc5e7d398dc6254dd0759ba7013baaffbc data\oresmod\loot_tables\blocks\white_sandstone_stairs.json
 3707b87e2f7195a8b8b84ce7aec1e119df8cf97c data\oresmod\loot_tables\blocks\smooth_black_sandstone_slab.json
+593df1605e115f1e32495b00c56be8d3d3f1f066 data\oresmod\loot_tables\blocks\nickel_pressure_plate.json
 d2b5ab2fb7902d22a7c419246eac5d1fb9619f3f data\oresmod\loot_tables\blocks\potted_deepbark_sapling.json
 c11bc6559a7c44daa5d76e6512594431100380b4 data\oresmod\loot_tables\blocks\cobalt_block.json
 a15a6b30111f19a1db46c0298e876605646078c1 data\oresmod\loot_tables\blocks\deepslate_wood.json
@@ -56,8 +57,8 @@ edd9a1758e09073a9c4c9c1cef5c369bebef6e70 data\oresmod\loot_tables\blocks\smooth_
 daca882ff9bd01a57947c1aba0c2c558379c050b data\oresmod\loot_tables\blocks\cut_white_sandstone_slab.json
 17d5558faf48737a9b828e2a4ada7d6191d2df3b data\oresmod\loot_tables\blocks\white_sandstone_wall.json
 afa718338eb974cc0067428164905834e692ede9 data\oresmod\loot_tables\blocks\smooth_white_sandstone_stairs.json
-c4d3802abb03b6fcfaf1deaea191745abfefb48c data\oresmod\loot_tables\blocks\black_sandstone.json
 9a548edcaab74bfbb849c0ada3204e75b33089b9 data\oresmod\loot_tables\blocks\chiseled_frosite.json
+c4d3802abb03b6fcfaf1deaea191745abfefb48c data\oresmod\loot_tables\blocks\black_sandstone.json
 db5513916a990b41d3bd9b1b8352eb149ac178c0 data\oresmod\loot_tables\blocks\stonebark_pressure_plate.json
 179cf9d6ed9d40cdea733ab9c3112ae80bf11ec7 data\oresmod\loot_tables\blocks\steel_pressure_plate.json
 5f63ab280ffcd55f9c8fdef6a3d506dbc6e48ed3 data\oresmod\loot_tables\blocks\white_sandstone_slab.json

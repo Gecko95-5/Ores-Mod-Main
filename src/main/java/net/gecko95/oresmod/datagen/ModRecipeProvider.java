@@ -1033,6 +1033,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ALUMINUM_INGOT), conditionsFromItem(ModItems.ALUMINUM_INGOT))
                 .offerTo(exporter, new Identifier("aluminum_pressure_plate"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.NICKEL_PRESSURE_PLATE)
+                .pattern("NN")
+                .input('N', ModItems.NICKEL_INGOT)
+                .criterion(hasItem(ModItems.NICKEL_INGOT), conditionsFromItem(ModItems.NICKEL_INGOT))
+                .offerTo(exporter, new Identifier("nickel_pressure_plate"));
+
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.NICKEL_INGOT,
                 RecipeCategory.BUILDING_BLOCKS, ModBlocks.NICKEL_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.RAW_NICKEL,
@@ -2160,7 +2166,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern(" I ")
                 .input('I', ModItems.COBALT_INGOT)
                 .input('B', ModBlocks.COBALT_BLOCK)
-                .input('P', ModItems.HANDLED_POWER_DRIVE)
+                .input('P', ModItems.DUEL_HANDLED_POWER_DRIVE)
                 .criterion(hasItem(ModItems.COBALT_INGOT), conditionsFromItem(ModItems.COBALT_INGOT))
                 .criterion(hasItem(ModBlocks.COBALT_BLOCK), conditionsFromItem(ModBlocks.COBALT_BLOCK))
                 .criterion(hasItem(ModItems.HANDLED_POWER_DRIVE), conditionsFromItem(ModItems.HANDLED_POWER_DRIVE))
@@ -2170,10 +2176,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("IIB")
                 .input('I', ModItems.COBALT_INGOT)
                 .input('B', ModBlocks.COBALT_BLOCK)
-                .input('P', ModItems.HANDLED_POWER_DRIVE)
+                .input('P', ModItems.DUEL_HANDLED_POWER_DRIVE)
                 .criterion(hasItem(ModItems.COBALT_INGOT), conditionsFromItem(ModItems.COBALT_INGOT))
                 .criterion(hasItem(ModBlocks.COBALT_BLOCK), conditionsFromItem(ModBlocks.COBALT_BLOCK))
-                .criterion(hasItem(ModItems.HANDLED_POWER_DRIVE), conditionsFromItem(ModItems.HANDLED_POWER_DRIVE))
+                .criterion(hasItem(ModItems.DUEL_HANDLED_POWER_DRIVE), conditionsFromItem(ModItems.DUEL_HANDLED_POWER_DRIVE))
                 .offerTo(exporter, new Identifier("cobalt_chainsaw"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TUNGSTEN_DRILL)
@@ -2182,20 +2188,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern(" I ")
                 .input('I', ModItems.TUNGSTEN_INGOT)
                 .input('B', ModBlocks.TUNGSTEN_BLOCK)
-                .input('P', ModItems.HANDLED_POWER_DRIVE)
+                .input('P', ModItems.DUEL_HANDLED_POWER_DRIVE)
                 .criterion(hasItem(ModItems.TUNGSTEN_INGOT), conditionsFromItem(ModItems.TUNGSTEN_INGOT))
                 .criterion(hasItem(ModBlocks.TUNGSTEN_BLOCK), conditionsFromItem(ModBlocks.TUNGSTEN_BLOCK))
-                .criterion(hasItem(ModItems.HANDLED_POWER_DRIVE), conditionsFromItem(ModItems.HANDLED_POWER_DRIVE))
+                .criterion(hasItem(ModItems.DUEL_HANDLED_POWER_DRIVE), conditionsFromItem(ModItems.DUEL_HANDLED_POWER_DRIVE))
                 .offerTo(exporter, new Identifier("tungsten_drill"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TUNGSTEN_CHAINSAW)
                 .pattern("  P")
                 .pattern("IIB")
                 .input('I', ModItems.TUNGSTEN_INGOT)
                 .input('B', ModBlocks.TUNGSTEN_BLOCK)
-                .input('P', ModItems.HANDLED_POWER_DRIVE)
+                .input('P', ModItems.DUEL_HANDLED_POWER_DRIVE)
                 .criterion(hasItem(ModItems.TUNGSTEN_INGOT), conditionsFromItem(ModItems.TUNGSTEN_INGOT))
                 .criterion(hasItem(ModBlocks.TUNGSTEN_BLOCK), conditionsFromItem(ModBlocks.TUNGSTEN_BLOCK))
-                .criterion(hasItem(ModItems.HANDLED_POWER_DRIVE), conditionsFromItem(ModItems.HANDLED_POWER_DRIVE))
+                .criterion(hasItem(ModItems.DUEL_HANDLED_POWER_DRIVE), conditionsFromItem(ModItems.DUEL_HANDLED_POWER_DRIVE))
                 .offerTo(exporter, new Identifier("tungsten_chainsaw"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TITANIUM_DRILL)
@@ -2204,20 +2210,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern(" I ")
                 .input('I', ModItems.TITANIUM_INGOT)
                 .input('B', ModBlocks.TITANIUM_BLOCK)
-                .input('P', ModItems.HANDLED_POWER_DRIVE)
+                .input('P', ModItems.DUEL_HANDLED_POWER_DRIVE)
                 .criterion(hasItem(ModItems.TITANIUM_INGOT), conditionsFromItem(ModItems.TITANIUM_INGOT))
                 .criterion(hasItem(ModBlocks.TITANIUM_BLOCK), conditionsFromItem(ModBlocks.TITANIUM_BLOCK))
-                .criterion(hasItem(ModItems.HANDLED_POWER_DRIVE), conditionsFromItem(ModItems.HANDLED_POWER_DRIVE))
+                .criterion(hasItem(ModItems.DUEL_HANDLED_POWER_DRIVE), conditionsFromItem(ModItems.DUEL_HANDLED_POWER_DRIVE))
                 .offerTo(exporter, new Identifier("titanium_drill"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TITANIUM_CHAINSAW)
                 .pattern("  P")
                 .pattern("IIB")
                 .input('I', ModItems.TITANIUM_INGOT)
                 .input('B', ModBlocks.TITANIUM_BLOCK)
-                .input('P', ModItems.HANDLED_POWER_DRIVE)
+                .input('P', ModItems.DUEL_HANDLED_POWER_DRIVE)
                 .criterion(hasItem(ModItems.TITANIUM_INGOT), conditionsFromItem(ModItems.TITANIUM_INGOT))
                 .criterion(hasItem(ModBlocks.TITANIUM_BLOCK), conditionsFromItem(ModBlocks.TITANIUM_BLOCK))
-                .criterion(hasItem(ModItems.HANDLED_POWER_DRIVE), conditionsFromItem(ModItems.HANDLED_POWER_DRIVE))
+                .criterion(hasItem(ModItems.DUEL_HANDLED_POWER_DRIVE), conditionsFromItem(ModItems.DUEL_HANDLED_POWER_DRIVE))
                 .offerTo(exporter, new Identifier("titanium_chainsaw"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_SANDSTONE)

@@ -70,6 +70,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPBARK_FENCE_GATE);
         addDrop(ModBlocks.DEEPBARK_BUTTON);
         addDrop(ModBlocks.DEEPBARK_PRESSURE_PLATE);
+        addDrop(ModBlocks.NICKEL_PRESSURE_PLATE);
         addDrop(ModBlocks.DEEPBARK_TRAPDOOR);
         addDrop(ModBlocks.STONEBARK_SAPLING);
         addDrop(ModBlocks.DEEPBARK_SAPLING);

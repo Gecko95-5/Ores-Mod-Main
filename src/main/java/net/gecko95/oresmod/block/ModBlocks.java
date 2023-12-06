@@ -91,8 +91,8 @@ public class ModBlocks {
             new PaneBlock(AbstractBlock.Settings.create().requiresTool().strength(4.0f, 5.0f)
                     .sounds(BlockSoundGroup.METAL).nonOpaque()));
     public static final Block ALUMINUM_PRESSURE_PLATE = registerBlock("aluminum_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.copyOf(Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE), BlockSetType.IRON));
+            new WeightedPressurePlateBlock(75, FabricBlockSettings.copyOf(Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE),
+                    BlockSetType.IRON));
 
     public static final Block NICKEL_ORE = registerBlock("nickel_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.COPPER_ORE)));
@@ -104,6 +104,9 @@ public class ModBlocks {
     public static final Block RAW_NICKEL_BLOCK = registerBlock("raw_nickel_block",
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK).mapColor(MapColor.TERRACOTTA_GRAY).instrument(Instrument.BASEDRUM)
                     .requiresTool()));
+    public static final Block NICKEL_PRESSURE_PLATE = registerBlock("nickel_pressure_plate",
+            new WeightedPressurePlateBlock(7, FabricBlockSettings.copyOf(Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE),
+                    BlockSetType.IRON));
 
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY).requiresTool()
@@ -135,8 +138,8 @@ public class ModBlocks {
             new PaneBlock(AbstractBlock.Settings.create().requiresTool().strength(25.0f, 600.0f)
                     .sounds(BlockSoundGroup.METAL).nonOpaque()));
     public static final Block STEEL_PRESSURE_PLATE = registerBlock("steel_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.copyOf(Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE), BlockSetType.IRON));
+            new WeightedPressurePlateBlock(300, FabricBlockSettings.copyOf(Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE),
+                    BlockSetType.IRON));
 
     public static final Block STEEL_LAMP = registerBlock("steel_lamp",
             new Block(FabricBlockSettings.copyOf(ModBlocks.STEEL_BLOCK).luminance(state -> 15).solidBlock(Blocks::never)));

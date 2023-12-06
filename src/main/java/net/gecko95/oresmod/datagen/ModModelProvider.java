@@ -33,7 +33,7 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool blacksandstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLACK_SANDSTONE_TEXTURE);
         BlockStateModelGenerator.BlockTexturePool frostbrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FROSITE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool frosttilePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FROSITE_TILES);
-        BlockStateModelGenerator.BlockTexturePool aluminumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ALUMINUM_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALUMINUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_ALUMINUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALUMINUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_ALUMINUM_ORE);
@@ -41,7 +41,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_NICKEL_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NICKEL_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_NICKEL_ORE);
-        BlockStateModelGenerator.BlockTexturePool steelPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STEEL_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.STEEL_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_STEEL_BLOCK);
         BlockStateModelGenerator.BlockTexturePool smoothsteelPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_STEEL_BLOCK);
         BlockStateModelGenerator.BlockTexturePool cutsteelPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CUT_STEEL);
@@ -111,9 +111,6 @@ public class ModModelProvider extends FabricModelProvider {
         blacksandstonePool.wall(ModBlocks.BLACK_SANDSTONE_WALL);
         smoothblacksandstonePool.stairs(ModBlocks.SMOOTH_BLACK_SANDSTONE_STAIRS);
         smoothblacksandstonePool.slab(ModBlocks.SMOOTH_BLACK_SANDSTONE_SLAB);
-
-        aluminumPool.pressurePlate(ModBlocks.ALUMINUM_PRESSURE_PLATE);
-        steelPool.pressurePlate(ModBlocks.STEEL_PRESSURE_PLATE);
 
         blockStateModelGenerator.registerDoor(ModBlocks.ALUMINUM_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.ALUMINUM_TRAPDOOR);

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_handled_power_drive": {
+    "has_duel_handled_power_drive": {
       "conditions": {
         "items": [
           {
             "items": [
-              "oresmod:handled_power_drive"
+              "oresmod:duel_handled_power_drive"
             ]
           }
         ]
@@ -49,7 +49,7 @@
       "has_the_recipe",
       "has_tungsten_ingot",
       "has_tungsten_block",
-      "has_handled_power_drive"
+      "has_duel_handled_power_drive"
     ]
   ],
   "rewards": {

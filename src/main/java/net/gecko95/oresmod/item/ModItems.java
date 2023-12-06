@@ -204,53 +204,53 @@ public class ModItems {
     public static final Item TITANIUM_BOOTS = registerItem("titanium_boots",
             new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
-    public static final Item TUNGSTEN_NUGGET = registerItem("tungsten_nugget", new Item(new FabricItemSettings()));
-    public static final Item TUNGSTEN_INGOT = registerItem("tungsten_ingot", new Item(new FabricItemSettings()));
+    public static final Item TUNGSTEN_NUGGET = registerItem("tungsten_nugget", new Item(new FabricItemSettings().fireproof()));
+    public static final Item TUNGSTEN_INGOT = registerItem("tungsten_ingot", new Item(new FabricItemSettings().fireproof()));
 
     public static final Item TUNGSTEN_HELMET = registerItem("tungsten_helmet",
-            new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
     public static final Item TUNGSTEN_CHESTPLATE = registerItem("tungsten_chestplate",
-            new ModArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
     public static final Item TUNGSTEN_LEGGINGS = registerItem("tungsten_leggings",
-            new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
     public static final Item TUNGSTEN_BOOTS = registerItem("tungsten_boots",
-            new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
 
     public static final Item TUNGSTEN_SWORD = registerItem("tungsten_sword",
-            new SwordItem(ModToolMaterial.TUNGSTEN, 3, -2.4f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.TUNGSTEN, 3, -2.4f, new FabricItemSettings().fireproof()));
     public static final Item TUNGSTEN_PICKAXE = registerItem("tungsten_pickaxe",
-            new PickaxeItem(ModToolMaterial.TUNGSTEN, 1, -2.8f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.TUNGSTEN, 1, -2.8f, new FabricItemSettings().fireproof()));
     public static final Item TUNGSTEN_AXE = registerItem("tungsten_axe",
-            new AxeItem(ModToolMaterial.TUNGSTEN, 5.0f, -3.0f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.TUNGSTEN, 5.0f, -3.0f, new FabricItemSettings().fireproof()));
     public static final Item TUNGSTEN_SHOVEL = registerItem("tungsten_shovel",
-            new ShovelItem(ModToolMaterial.TUNGSTEN, 1.5f, -3.0f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.TUNGSTEN, 1.5f, -3.0f, new FabricItemSettings().fireproof()));
     public static final Item TUNGSTEN_HOE = registerItem("tungsten_hoe",
-            new HoeItem(ModToolMaterial.TUNGSTEN, -2, 0.0f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.TUNGSTEN, -2, 0.0f, new FabricItemSettings().fireproof()));
 
-    public static final Item TITANIUM_ALLOY_INGOT = registerItem("titanium_alloy_ingot", new Item(new FabricItemSettings()));
-    public static final Item TITANIUM_ALLOY_SCRAP = registerItem("titanium_alloy_scrap", new Item(new FabricItemSettings()));
+    public static final Item TITANIUM_ALLOY_INGOT = registerItem("titanium_alloy_ingot", new Item(new FabricItemSettings().fireproof()));
+    public static final Item TITANIUM_ALLOY_SCRAP = registerItem("titanium_alloy_scrap", new Item(new FabricItemSettings().fireproof()));
     public static final Item TITANIUM_ALLOY_UPGRADE_SMITHING_TEMPLATE = registerItem("titanium_alloy_upgrade_smithing_template",
             new TitaniumAlloyUpgradeTemplateItem(new FabricItemSettings()));
 
     public static final Item TITANIUM_ALLOY_SWORD = registerItem("titanium_alloy_sword",
-            new SwordItem(ModToolMaterial.TITANIUM_ALLOY, 3, -2.4f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.TITANIUM_ALLOY, 3, -2.4f, new FabricItemSettings().fireproof()));
     public static final Item TITANIUM_ALLOY_PICKAXE = registerItem("titanium_alloy_pickaxe",
-            new PickaxeItem(ModToolMaterial.TITANIUM_ALLOY, 1, -2.8f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.TITANIUM_ALLOY, 1, -2.8f, new FabricItemSettings().fireproof()));
     public static final Item TITANIUM_ALLOY_AXE = registerItem("titanium_alloy_axe",
-            new AxeItem(ModToolMaterial.TITANIUM_ALLOY, 5.0f, -3.0f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.TITANIUM_ALLOY, 5.0f, -3.0f, new FabricItemSettings().fireproof()));
     public static final Item TITANIUM_ALLOY_SHOVEL = registerItem("titanium_alloy_shovel",
-            new ShovelItem(ModToolMaterial.TITANIUM_ALLOY, 1.5f, -3.0f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.TITANIUM_ALLOY, 1.5f, -3.0f, new FabricItemSettings().fireproof()));
     public static final Item TITANIUM_ALLOY_HOE = registerItem("titanium_alloy_hoe",
-            new HoeItem(ModToolMaterial.TITANIUM_ALLOY, -4, 0.0f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.TITANIUM_ALLOY, -4, 0.0f, new FabricItemSettings().fireproof()));
 
     public static final Item TITANIUM_ALLOY_HELMET = registerItem("titanium_alloy_helmet",
-            new ArmorItem(ModArmorMaterials.TITANIUM_ALLOY, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.TITANIUM_ALLOY, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
     public static final Item TITANIUM_ALLOY_CHESTPLATE = registerItem("titanium_alloy_chestplate",
-            new ModArmorItem(ModArmorMaterials.TITANIUM_ALLOY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.TITANIUM_ALLOY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
     public static final Item TITANIUM_ALLOY_LEGGINGS = registerItem("titanium_alloy_leggings",
-            new ArmorItem(ModArmorMaterials.TITANIUM_ALLOY, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.TITANIUM_ALLOY, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
     public static final Item TITANIUM_ALLOY_BOOTS = registerItem("titanium_alloy_boots",
-            new ArmorItem(ModArmorMaterials.TITANIUM_ALLOY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.TITANIUM_ALLOY, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
 
     public static final Item COBALT_INGOT = registerItem("cobalt_ingot", new Item(new FabricItemSettings()));
     public static final Item COBALT_NUGGET = registerItem("cobalt_nugget", new Item(new FabricItemSettings()));
