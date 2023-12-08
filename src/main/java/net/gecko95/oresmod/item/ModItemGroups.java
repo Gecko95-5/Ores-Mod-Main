@@ -351,6 +351,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ALUMINUM_TRAPDOOR);
                         entries.add(ModBlocks.ALUMINUM_BARS);
                         entries.add(ModBlocks.ALUMINUM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.NICKEL_PRESSURE_PLATE);
                         entries.add(ModBlocks.SMOOTH_STEEL_BLOCK);
                         entries.add(ModBlocks.SMOOTH_STEEL_SLAB);
                         entries.add(ModBlocks.CUT_STEEL);

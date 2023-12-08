@@ -1532,7 +1532,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CUT_STEEL_SLAB, ModBlocks.SMOOTH_STEEL_BLOCK,2);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CUT_STEEL_SLAB, ModBlocks.CUT_STEEL,2);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STEEL_INGOT)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STEEL_APPLE)
                 .pattern("SSS")
                 .pattern("SAS")
                 .pattern("SSS")
