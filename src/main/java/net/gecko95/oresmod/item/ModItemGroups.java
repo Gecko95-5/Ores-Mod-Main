@@ -401,21 +401,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WHITE_SANDSTONE_STAIRS);
                         entries.add(ModBlocks.WHITE_SANDSTONE_SLAB);
                         entries.add(ModBlocks.WHITE_SANDSTONE_WALL);
-                        entries.add(ModBlocks.CUT_WHITE_SANDSTONE);
+                        entries.add(ModBlocks.CHISELED_WHITE_SANDSTONE);
                         entries.add(ModBlocks.SMOOTH_WHITE_SANDSTONE);
                         entries.add(ModBlocks.SMOOTH_WHITE_SANDSTONE_STAIRS);
                         entries.add(ModBlocks.SMOOTH_WHITE_SANDSTONE_SLAB);
-                        entries.add(ModBlocks.CHISELED_WHITE_SANDSTONE);
+                        entries.add(ModBlocks.CUT_WHITE_SANDSTONE);
+                        entries.add(ModBlocks.CUT_WHITE_SANDSTONE_SLAB);
                         entries.add(ModBlocks.BLACK_SAND);
                         entries.add(ModBlocks.BLACK_SANDSTONE);
                         entries.add(ModBlocks.BLACK_SANDSTONE_STAIRS);
                         entries.add(ModBlocks.BLACK_SANDSTONE_SLAB);
                         entries.add(ModBlocks.BLACK_SANDSTONE_WALL);
-                        entries.add(ModBlocks.CUT_BLACK_SANDSTONE);
+                        entries.add(ModBlocks.CHISELED_BLACK_SANDSTONE);
                         entries.add(ModBlocks.SMOOTH_BLACK_SANDSTONE);
                         entries.add(ModBlocks.SMOOTH_BLACK_SANDSTONE_STAIRS);
                         entries.add(ModBlocks.SMOOTH_BLACK_SANDSTONE_SLAB);
-                        entries.add(ModBlocks.CHISELED_BLACK_SANDSTONE);
+                        entries.add(ModBlocks.CUT_BLACK_SANDSTONE);
+                        entries.add(ModBlocks.CUT_BLACK_SANDSTONE_SLAB);
                     }).build());
     public static void registerItemGroups(){
         OresMod.LOGGER.info("Registering Item Groups for " + OresMod.MOD_ID);

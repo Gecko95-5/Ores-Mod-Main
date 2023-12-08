@@ -1,4 +1,4 @@
-// 1.20.2	2023-12-07T19:20:31.5857038	Ores Mod/Block Loot Tables
+// 1.20.2	2023-12-08T11:28:06.3471393	Ores Mod/Block Loot Tables
 b4245b9e9f52bd5506bb480a49504f1003c0daff data\oresmod\loot_tables\blocks\black_sandstone_slab.json
 c49478a8e8411e74ffe2d3c8ecfe09b5811a66ce data\oresmod\loot_tables\blocks\raw_titanium_block.json
 e798185fc6614b895406b802a5e2fe40636847a1 data\oresmod\loot_tables\blocks\deepslate_leaves.json
@@ -53,9 +53,9 @@ cf7eae265ffde903a1976650de963989ba4f9030 data\oresmod\loot_tables\blocks\deepbar
 c11bc6559a7c44daa5d76e6512594431100380b4 data\oresmod\loot_tables\blocks\cobalt_block.json
 5a4fc24b1a47a3fa1420fa8ac649645ee7c1d036 data\oresmod\loot_tables\blocks\frosite_brick_wall.json
 993f6e155e5f219ef4964e7c30bf657ee3a57824 data\oresmod\loot_tables\blocks\deepslate_log.json
-30e56cf10541617428d0f4bf42f444773dd5569f data\oresmod\loot_tables\blocks\suspicious_white_sand.json
-841c1306e0648ee7545f9a193038fae40043ea5a data\oresmod\loot_tables\blocks\salt_block.json
 c4d3802abb03b6fcfaf1deaea191745abfefb48c data\oresmod\loot_tables\blocks\black_sandstone.json
+841c1306e0648ee7545f9a193038fae40043ea5a data\oresmod\loot_tables\blocks\salt_block.json
+30e56cf10541617428d0f4bf42f444773dd5569f data\oresmod\loot_tables\blocks\suspicious_white_sand.json
 3707b87e2f7195a8b8b84ce7aec1e119df8cf97c data\oresmod\loot_tables\blocks\smooth_black_sandstone_slab.json
 9d63af4b8e2dd6e860bbf555f00b896d8a5561b9 data\oresmod\loot_tables\blocks\stripped_stonebark_log.json
 8f0183dd399771e22bcfe88462c06b1986df5252 data\oresmod\loot_tables\blocks\aluminum_bars.json
@@ -100,8 +100,8 @@ edc67d3ab4c5adc6286006f9f5d60d4d8ad9417b data\oresmod\loot_tables\blocks\cut_ste
 c9e5e70520d1e7e36457bbbd2e9410a5d9a001d4 data\oresmod\loot_tables\blocks\stonebark_fence.json
 8e00ae7a38fe88a78626bef74988bac19e85b9c6 data\oresmod\loot_tables\blocks\tuff_iron_ore.json
 a15a6b30111f19a1db46c0298e876605646078c1 data\oresmod\loot_tables\blocks\deepslate_wood.json
-e0a02eae91bb181d5173d28fc934f834df1f73cc data\oresmod\loot_tables\blocks\deepslate_planks.json
 5a6df559c72e8e61e50ee1b47f09871392bbace0 data\oresmod\loot_tables\blocks\stonebark_button.json
 7a957b730c6ecd9d916ec67db2fe01cc8e7ea60f data\oresmod\loot_tables\blocks\stonebark_fence_gate.json
+e0a02eae91bb181d5173d28fc934f834df1f73cc data\oresmod\loot_tables\blocks\deepslate_planks.json
 b88293faafb0c7da4658ed9c446af0c180240487 data\oresmod\loot_tables\blocks\aluminum_pressure_plate.json
 e3e156a7d41d44df6201e6640aa2adb312e7a432 data\oresmod\loot_tables\blocks\raw_salt_block.json
