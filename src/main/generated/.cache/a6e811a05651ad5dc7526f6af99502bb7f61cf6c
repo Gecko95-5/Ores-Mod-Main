@@ -1,4 +1,4 @@
-// 1.20.2	2024-02-23T13:49:08.7048028	Ores Mod/Recipes
+// 1.20.2	2024-04-30T15:05:43.4414958	Ores Mod/Recipes
 7966c7bc9ef7464a590573c1baefcdc3b2ce0c5e data\oresmod\recipes\handled_power_drive.json
 f4f22ca5c3d6d520bfd28c75a1c25e4211ebc4e6 data\oresmod\advancements\recipes\decorations\steel_lamp.json
 2dc3ae81a30e719754d8278335f0d23dba583e61 data\oresmod\recipes\nickel_ingot.json
@@ -161,8 +161,8 @@ a7d0a1db5a1a0126c7d4d60bcb78bdaf3a24dfd6 data\oresmod\recipes\steel_compound_cop
 0144c611f32583c0752cad3eac4b5b893984b5b6 data\oresmod\recipes\nickel_nugget_from_smelting_nickel_hoe.json
 5a41b6a92163e1587e002ae4c95ae8fe27943ec1 data\oresmod\recipes\steel_upgrade_smithing_template.json
 24e5bcf4acb13abdb9070328106561efd5849672 data\oresmod\recipes\cobalt_ingot.json
-b0ab2c7baa4c1c684403ea937d79aeda687fc9eb data\oresmod\advancements\recipes\misc\nickel_nugget_from_smelting_nickel_shovel.json
 96ed571a8239cf80447fd5c4af551979bdd5faf5 data\oresmod\recipes\cobalt_ingot_from_blasting_nether_cobalt_ore.json
+b0ab2c7baa4c1c684403ea937d79aeda687fc9eb data\oresmod\advancements\recipes\misc\nickel_nugget_from_smelting_nickel_shovel.json
 3d8954187a404d6285371e749b4da47f1cb6c704 data\oresmod\advancements\recipes\tools\frosite_helmet.json
 b67dbefdcf25f30120d393f6587a05ffc7ebb4ff data\oresmod\advancements\recipes\tools\frosite_pickaxe.json
 63f32ea88bf2ba1051347f58d93489ab0ac80eb0 data\oresmod\recipes\deepbark_fence_gate.json
